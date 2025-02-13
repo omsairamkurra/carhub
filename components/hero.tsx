@@ -20,6 +20,7 @@ const Hero = () => {
                     containerStyles="bg-primary-blue text-white rounded-full mt-10"
                     handleClick={handleScroll}
                     btnType="button"
+                    isDisabled
                 />
             </div>
 

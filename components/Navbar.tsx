@@ -22,6 +22,7 @@ const Navbar = () => {
                     title="Sign In"
                     btnType="button"
                     containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
+                    isDisabled
                 />
             </nav>
         </header>
