@@ -33,7 +33,7 @@ const CarCard = ({ car }: CarCardProps) => {
                     className="object-contain" />
             </div>
 
-            <div className="relative flex w-full mt-2">\
+            <div className="relative flex w-full mt-2">
                 <div className="flex group-hover:invisible
                 w-full justify-between text-grey">
                     <div className="flex flex-col justify-center items-center gap-2">
@@ -65,7 +65,7 @@ const CarCard = ({ car }: CarCardProps) => {
                         textStyles="text-white text-[14px] leading-[17px] font-bold"
                         rightIcon="/right-arrow.svg"
                         handleClick={() => setIsOpen(true)}
-                        btnType="submit"
+                        btnType="button"
                         isDisabled />
                 </div>
 
